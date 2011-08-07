@@ -1,2 +1,8 @@
 *
-!.vim/bundle
+!.vim
+.vim/bundle
+
+!.bash_profile
+!.gitignore
+!.gitmodules
+!.vimrc
