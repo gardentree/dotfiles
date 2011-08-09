@@ -23,6 +23,10 @@ filetype plugin on
 
 imap <C-Space> <c-x><c-o>
 
+noremap ; :
+noremap : ;
+
+
 let &statusline = ''
 let &statusline .='%<[%n]%f %h%m%r%w'
 let &statusline .= '%='
