@@ -38,3 +38,8 @@ let &statusline .= '%='
 "let &statusline .= '(%{' . s:SID_PREFIX() . 'vcs_branch_name(getcwd())}) '
 let &statusline .= '%{fugitive#statusline()}[%{( &l:fileencoding == "" ? &encoding : &l:fileencoding ).":".&fileformat}]%y'
 let &statusline .= ' %-14.(%l,%c%V%) %P'
+
+" Plugins
+" Neocomplecache
+" Use neocomplcache.
+let g:neocomplcache_enable_at_startup = 1
