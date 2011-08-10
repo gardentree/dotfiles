@@ -16,6 +16,10 @@ set autoindent
 set nocompatible
 set laststatus=2 "ステータスラインを常に表示
 
+set wildmenu " コマンドライン補完するときに強化されたものを使う(参照 :help wildmenu)
+" コマンドライン補間をシェルっぽく
+set wildmode=list:longest
+
 syntax on
 filetype on
 filetype indent on
