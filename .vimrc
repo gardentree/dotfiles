@@ -8,6 +8,7 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'neocomplcache'
 Bundle 'fugitive.vim'
 Bundle 'unite.vim'
+Bundle 'tComment'
 
 set tabstop=2
 set shiftwidth=2
