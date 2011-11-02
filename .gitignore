@@ -1,8 +1,10 @@
 *
+
 !.vim
+!.vimrc
 .vim/bundle
 
 !.bash_profile
+
 !.gitignore
 !.gitmodules
-!.vimrc
