@@ -5,6 +5,7 @@
 .vim/bundle
 
 !.bash_profile
+!.zprofile
 
 !.gitignore
 !.gitmodules
