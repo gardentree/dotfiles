@@ -44,3 +44,8 @@ let &statusline .= ' %-14.(%l,%c%V%) %P'
 " Neocomplecache
 " Use neocomplcache.
 let g:neocomplcache_enable_at_startup = 1
+
+"ノーマルモードと挿入モードをステータスラインの色で区別する
+au InsertEnter * hi StatusLine guifg=DarkBlue guibg=DarkYellow gui=none ctermfg=Blue ctermbg=Yellow   cterm=none
+au InsertLeave * hi StatusLine guifg=DarkBlue guibg=DarkGray   gui=none ctermfg=Blue ctermbg=DarkGray cterm=none
+
