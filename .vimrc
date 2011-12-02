@@ -30,7 +30,7 @@ imap <C-Space> <c-x><c-o>
 
 noremap ; :
 noremap : ;
-
+noremap <CR> o<ESC>
 
 let &statusline = ''
 let &statusline .='%<[%n]%f %h%m%r%w'
