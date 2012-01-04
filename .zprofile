@@ -9,6 +9,11 @@ alias lla='ls -la'
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM functiona
+rvm use 1.9.2
+
+# nvm
+source ~/.nvm/nvm.sh
+nvm use 0.6.6
 
 # autoload
 autoload -U compinit
