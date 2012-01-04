@@ -10,6 +10,7 @@ Bundle 'fugitive.vim'
 Bundle 'unite.vim'
 Bundle 'tComment'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'jade.vim'
 
 set tabstop=2
 set shiftwidth=2
