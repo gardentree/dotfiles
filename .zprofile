@@ -13,7 +13,7 @@ rvm use 1.9.2
 
 # nvm
 source ~/.nvm/nvm.sh
-nvm use 0.6.6
+nvm use default
 
 # autoload
 autoload -U compinit
