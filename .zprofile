@@ -18,3 +18,8 @@ nvm use default
 # autoload
 autoload -U compinit
 compinit 
+
+# history
+HISTFILE=$HOME/.zsh-history
+HISTSIZE=100000
+SAVEHIST=100000
