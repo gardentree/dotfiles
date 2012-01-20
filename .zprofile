@@ -6,6 +6,7 @@ alias ls='ls -F'
 alias ll='ls -al'
 alias la='ls -a'
 alias lla='ls -la'
+alias -g C='| pbcopy '
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM functiona
