@@ -19,6 +19,7 @@ set expandtab
 set autoindent
 set nocompatible
 set laststatus=2 "ステータスラインを常に表示
+set title
 
 set wildmenu " コマンドライン補完するときに強化されたものを使う(参照 :help wildmenu)
 " コマンドライン補間をシェルっぽく
