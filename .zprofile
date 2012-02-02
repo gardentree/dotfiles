@@ -24,3 +24,7 @@ compinit
 HISTFILE=$HOME/.zsh-history
 HISTSIZE=100000
 SAVEHIST=100000
+setopt hist_ignore_dups   #同じコマンドラインを連続で実行した場合はヒストリに登録しない
+setopt hist_ignore_space  #スペースで始まるコマンドラインはヒストリに追加しない
+setopt inc_append_history #すぐにヒストリファイルに追記する
+setopt share_history      #zshプロセス間でヒストリを共有する
