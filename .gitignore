@@ -9,3 +9,5 @@
 
 !.gitignore
 !.gitmodules
+
+!.vimperatorrc
