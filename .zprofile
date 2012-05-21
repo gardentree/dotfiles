@@ -7,6 +7,7 @@ alias ll='ls -al'
 alias la='ls -a'
 alias lla='ls -la'
 alias -g C='| pbcopy '
+alias java='java -Dfile.encoding=UTF-8'
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM functiona
