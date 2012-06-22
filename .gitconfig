@@ -1,0 +1,21 @@
+[include]
+  path = .gitconfig.private
+[core]
+  editor = /usr/bin/vim
+[color]
+  ui = auto
+[alias]
+  st = status
+  ci = commit -v
+  co = checkout
+  br = branch
+  cob = checkout -b
+
+[merge]
+  tool = p4merge
+[mergetool]
+  keepBackup = false
+[mergetool "p4merge"]
+  path = p4merge
+  keepTemporaries = false
+  trustExitCode = false
