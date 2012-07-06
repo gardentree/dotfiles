@@ -54,3 +54,4 @@ let g:neocomplcache_enable_at_startup = 1
 au InsertEnter * hi StatusLine guifg=DarkBlue guibg=DarkYellow gui=none ctermfg=Blue ctermbg=Yellow   cterm=none
 au InsertLeave * hi StatusLine guifg=DarkBlue guibg=DarkGray   gui=none ctermfg=Blue ctermbg=DarkGray cterm=none
 
+autocmd BufWritePre * :%s/\s\+$//e "行末の空白を自動削除
