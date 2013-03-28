@@ -9,17 +9,9 @@ alias lla='ls -la'
 alias -g C='| pbcopy '
 alias java='java -Dfile.encoding=UTF-8'
 
-# rvm
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM functiona
-rvm use 1.9.2
-
-# nvm
-source ~/.nvm/nvm.sh
-nvm use default
-
 # autoload
 autoload -U compinit
-compinit 
+compinit
 
 # history
 HISTFILE=$HOME/.zsh-history
