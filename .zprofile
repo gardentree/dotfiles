@@ -21,3 +21,14 @@ setopt hist_ignore_dups   #同じコマンドラインを連続で実行した�
 setopt hist_ignore_space  #スペースで始まるコマンドラインはヒストリに追加しない
 setopt inc_append_history #すぐにヒストリファイルに追記する
 setopt share_history      #zshプロセス間でヒストリを共有する
+
+# git
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' formats '[%b]'
+zstyle ':vcs_info:*' actionformats '[%b|%a]'
+precmd () {
+    psvar=()
+    LANG=en_US.UTF-8 vcs_info
+    [[ -n "$vcs_info_msg_0_" ]] && psvar[1]="$vcs_info_msg_0_"
+}
+RPROMPT="%1(v|%F{white}%1v%f|)"
