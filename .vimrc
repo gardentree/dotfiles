@@ -21,6 +21,8 @@ set nocompatible
 set laststatus=2 "ステータスラインを常に表示
 set title
 set autoread   " 他で書き換えられたら自動で読み直す
+set clipboard+=unnamed
+set backspace=indent,eol,start
 
 set wildmenu " コマンドライン補完するときに強化されたものを使う(参照 :help wildmenu)
 " コマンドライン補間をシェルっぽく
