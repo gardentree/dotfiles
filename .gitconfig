@@ -19,3 +19,5 @@
   path = p4merge
   keepTemporaries = false
   trustExitCode = false
+[user]
+	email = gardentreex@gmail.com
