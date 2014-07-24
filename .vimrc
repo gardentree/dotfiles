@@ -39,6 +39,11 @@ noremap ; :
 noremap : ;
 noremap <CR> o<ESC>
 
+nnoremap x "_x
+vnoremap x "_x
+nnoremap c "_c
+vnoremap c "_c
+
 let &statusline = ''
 let &statusline .='%<[%n]%f %h%m%r%w'
 let &statusline .= '%='
