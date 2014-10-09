@@ -1,7 +1,8 @@
 [include]
   path = .gitconfig.private
 [core]
-  editor = /usr/bin/vim
+  editor = /usr/local/bin/vim
+	precomposeunicode = true
 [color]
   ui = auto
 [alias]
