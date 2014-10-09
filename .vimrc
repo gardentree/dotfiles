@@ -23,6 +23,8 @@ set title
 set autoread   " 他で書き換えられたら自動で読み直す
 set clipboard+=unnamed
 set backspace=indent,eol,start
+set breakindent
+set breakindentopt=min:20,shift:1
 
 set wildmenu " コマンドライン補完するときに強化されたものを使う(参照 :help wildmenu)
 " コマンドライン補間をシェルっぽく
@@ -51,6 +53,7 @@ let &statusline .= '%='
 "let &statusline .= '(%{' . s:SID_PREFIX() . 'vcs_branch_name(getcwd())}) '
 let &statusline .= '%{fugitive#statusline()}[%{( &l:fileencoding == "" ? &encoding : &l:fileencoding ).":".&fileformat}]%y'
 let &statusline .= ' %-14.(%l,%c%V%) %P'
+let loaded_matchparen = 1
 
 " Plugins
 " Neocomplecache
