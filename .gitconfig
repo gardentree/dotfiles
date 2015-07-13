@@ -3,6 +3,7 @@
 [core]
   editor = /usr/local/bin/vim
 	precomposeunicode = true
+	quotepath = false
 [color]
   ui = auto
 [alias]
