@@ -7,5 +7,3 @@ noremap k 3k
 " select next/previous tab
 noremap <M-l> gt
 noremap <M-h> gT
-
-set focuscontent
