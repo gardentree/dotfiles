@@ -7,7 +7,6 @@ alias ll='ls -al'
 alias la='ls -a'
 alias lla='ls -la'
 alias -g C='| pbcopy '
-alias java='java -Dfile.encoding=UTF-8'
 
 # autoload
 autoload -U compinit
