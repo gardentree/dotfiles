@@ -21,6 +21,7 @@ setopt hist_ignore_dups   #同じコマンドラインを連続で実行した�
 setopt hist_ignore_space  #スペースで始まるコマンドラインはヒストリに追加しない
 setopt inc_append_history #すぐにヒストリファイルに追記する
 setopt share_history      #zshプロセス間でヒストリを共有する
+setopt COMBINING_CHARS
 
 # git
 autoload -Uz vcs_info
