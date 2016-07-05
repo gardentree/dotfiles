@@ -1,5 +1,3 @@
-[include]
-  path = .gitconfig.private
 [core]
   editor = /usr/local/bin/vim
 	precomposeunicode = true
