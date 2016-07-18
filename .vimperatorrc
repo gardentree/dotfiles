@@ -7,3 +7,16 @@ noremap k 3k
 " select next/previous tab
 noremap <M-l> gt
 noremap <M-h> gT
+
+"" ステータスバーのフォントサイズを大きくする
+style chrome://* <<EOM
+#liberator-statusline {
+    font-family: Menlo, Consolas, Monaco, monospace !important;
+    font-weight: normal !important;
+    font-size: 10pt !important;
+    padding:2px 2px !important;
+}
+EOM
+
+"" ステータスバー
+hi StatusLine color: #000; background: #fff; font-weight: normal; font-size: 10pt; font-family: Menlo, Consolas, Monaco, monospace;
