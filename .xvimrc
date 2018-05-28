@@ -1,0 +1,16 @@
+noremap ; :
+noremap : ;
+
+noremap <CR> o<ESC>
+
+nnoremap x "_x
+vnoremap x "_x
+nnoremap c "_c
+vnoremap c "_c
+
+noremap <C-/><C-/> :xcmenucmd Comment Selection<CR>
+nnoremap <D-l> :xccmd selectNextTab<Cr>
+nnoremap <D-h> :xccmd selectPreviousTab<Cr>
+
+set clipboard+=unnamed
+set clipboard=unnamed

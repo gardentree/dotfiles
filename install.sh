@@ -2,7 +2,7 @@
 
 workspace=$(cd $(dirname $0); pwd)
 
-targets=(.bash_profile .commit_template .gitconfig .gitignore .gitmodules .pryrc .vimrc .zprofile)
+targets=(.bash_profile .commit_template .gitconfig .gitignore .gitmodules .pryrc .vimrc .xvimrc .zprofile)
 for i in "${targets[@]}"
 do
   ln -s  ${workspace}/${i} ~/${i}
