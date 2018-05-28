@@ -4,6 +4,7 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-haml'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'neocomplcache'
 Bundle 'fugitive.vim'
@@ -12,6 +13,7 @@ Bundle 'tComment'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'jade.vim'
 Bundle 'vim-stylus'
+Bundle 'posva/vim-vue'
 
 set tabstop=2
 set shiftwidth=2
