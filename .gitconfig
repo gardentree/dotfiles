@@ -27,4 +27,4 @@
   show = diff-highlight | less
   diff = diff-highlight | less
 [commit]
-	template = /Users/gian/dotfiles/.commit_template
+	template = ~/.dotfiles/.commit_template
