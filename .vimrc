@@ -64,4 +64,5 @@ let g:deoplete#enable_at_startup = 1
 
 "vim-prettier
 let g:prettier#autoformat = 0
+let g:prettier#quickfix_enabled = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue PrettierAsync
