@@ -1,0 +1,12 @@
+[
+  { "key": "cmd+h", "command": "workbench.action.previousEditor" },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "enter",
+    "command": "-renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  }
+]

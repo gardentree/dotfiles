@@ -1,0 +1,24 @@
+{
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.formatOnSave": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#000"
+  },
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "vim.useSystemClipboard": true,
+  "window.restoreWindows": "all",
+  "editor.cursorBlinking": "solid",
+  "editor.lineNumbers": "off",
+  "workbench.startupEditor": "none",
+  "workbench.editor.tabSizing": "shrink",
+  "editor.tabSize": 2,
+  "workbench.editor.openPositioning": "last",
+  "workbench.list.openMode": "doubleClick",
+  "workbench.activityBar.visible": false,
+  "editor.folding": false,
+  "editor.renderIndentGuides": false
+}
