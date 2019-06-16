@@ -13,7 +13,7 @@ else
 endif
 
 Plug 'leafgarland/typescript-vim'
-Plug 'prettier/vim-prettier',{'do': 'yarn install','for': ['javascript','typescript','css','less','scss','json','graphql','markdown','vue']}
+Plug 'prettier/vim-prettier',{'do': 'yarn install','for': ['javascript','typescript','css','less','scss','json','graphql','markdown','vue','html']}
 call plug#end()
 
 set tabstop=2
