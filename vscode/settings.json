@@ -20,5 +20,35 @@
   "workbench.list.openMode": "doubleClick",
   "workbench.activityBar.visible": false,
   "editor.folding": false,
-  "editor.renderIndentGuides": false
+  "editor.renderIndentGuides": false,
+
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [";"],
+      "after": [":"]
+    },
+    {
+      "before": [":"],
+      "after": [";"]
+    },
+    {
+      "before": ["<Enter>"],
+      "commands": ["editor.action.insertLineAfter"]
+    },
+    {
+      "before": ["x"],
+      "commands": ["deleteRight"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [";"],
+      "after": [":"]
+    },
+    {
+      "before": [":"],
+      "after": [";"]
+    }
+  ],
+  "editor.minimap.maxColumn": 160
 }
