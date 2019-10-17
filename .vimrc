@@ -14,6 +14,7 @@ endif
 
 Plug 'leafgarland/typescript-vim'
 Plug 'prettier/vim-prettier',{'do': 'yarn install','for': ['javascript','typescript','css','less','scss','json','graphql','markdown','vue','html']}
+Plug 'thinca/vim-quickrun'
 call plug#end()
 
 set tabstop=2
@@ -66,3 +67,9 @@ let g:deoplete#enable_at_startup = 1
 let g:prettier#autoformat = 0
 let g:prettier#quickfix_enabled = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue PrettierAsync
+
+let g:quickrun_config = {
+\   '_': {
+\     'outputter/buffer/split': ':botright 10'
+\   }
+\ }
