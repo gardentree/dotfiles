@@ -8,6 +8,8 @@ alias la='ls -a'
 alias lla='ls -la'
 alias -g C='| pbcopy '
 
+alias puma-restart="puma-dev -stop && puma-dev -setup"
+
 # autoload
 autoload -U compinit
 compinit
