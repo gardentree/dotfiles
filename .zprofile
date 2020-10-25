@@ -9,6 +9,7 @@ alias lla='ls -la'
 alias -g C='| pbcopy '
 
 alias puma-restart="puma-dev -stop && puma-dev -setup"
+alias git-substitute='(){git grep -l "$1" | xargs sed -i "" -e "s/$1/$2/g"}'
 
 # autoload
 autoload -U compinit
