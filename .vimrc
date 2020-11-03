@@ -62,6 +62,7 @@ autocmd BufWritePre * :%s/\s\+$//e "行末の空白を自動削除
 
 "deoplete.nvim
 let g:deoplete#enable_at_startup = 1
+call deoplete#custom#option('auto_complete_delay', 1000)
 
 "vim-prettier
 let g:prettier#autoformat = 0
