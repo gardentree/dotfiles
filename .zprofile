@@ -35,3 +35,10 @@ precmd () {
     [[ -n "$vcs_info_msg_0_" ]] && psvar[1]="$vcs_info_msg_0_"
 }
 RPROMPT="%1(v|%F{white}%1v%f|)"
+
+git-stamp() {
+  now=`date "+%Y%m%d%H%M%S"`
+
+  git tag $now
+  git push origin $now
+}
