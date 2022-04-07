@@ -13,7 +13,7 @@ else
 endif
 
 Plug 'leafgarland/typescript-vim'
-Plug 'prettier/vim-prettier',{'do': 'yarn install','for': ['javascript','typescript','css','less','scss','json','graphql','markdown','vue','html']}
+Plug 'prettier/vim-prettier',{'do': 'yarn install','for': ['javascript','typescript','typescriptreact','css','less','scss','json','graphql','markdown','vue','html']}
 Plug 'thinca/vim-quickrun'
 call plug#end()
 
