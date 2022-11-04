@@ -1,5 +1,5 @@
 [
-  { "key": "cmd+h", "command": "workbench.action.previousEditor" },
+  {"key": "cmd+h", "command": "workbench.action.previousEditor"},
   {
     "key": "cmd+l",
     "command": "workbench.action.nextEditor"
