@@ -32,12 +32,12 @@
       "after": [";"]
     },
     {
-      "before": ["<Enter>"],
-      "commands": ["editor.action.insertLineAfter"]
+      "before": ["x"],
+      "after": ["\"", "_", "x"]
     },
     {
-      "before": ["x"],
-      "commands": ["deleteRight"]
+      "before": ["<Enter>"],
+      "commands": ["editor.action.insertLineAfter"]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
@@ -48,6 +48,10 @@
     {
       "before": [":"],
       "after": [";"]
+    },
+    {
+      "before": ["x"],
+      "after": ["\"", "_", "x"]
     }
   ],
   "editor.minimap.maxColumn": 160
