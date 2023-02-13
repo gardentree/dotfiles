@@ -2,7 +2,7 @@
   editor = /usr/bin/vim
 	precomposeunicode = true
   quotepath = false
-  excludesfile = ~/.dotfiles/.gitignore
+  excludesfile = ~/dotfiles/.gitignore
 [color]
   ui = auto
 [alias]
@@ -28,4 +28,4 @@
   show = diff-highlight | less
   diff = diff-highlight | less
 [commit]
-	template = ~/.dotfiles/.commit_template
+	template = ~/dotfiles/.commit_template

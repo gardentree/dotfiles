@@ -55,7 +55,7 @@
     }
   ],
   "editor.minimap.maxColumn": 160,
-  "prettier.configPath": "~/.dotfiles/.prettierrc",
+  "prettier.configPath": "~/dotfiles/.prettierrc",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
