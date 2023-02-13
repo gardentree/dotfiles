@@ -41,3 +41,7 @@ git-stamp() {
   git tag $now
   git push origin $now
 }
+
+# homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+export PATH="$PATH:/opt/homebrew/share/git-core/contrib/diff-highlight"
