@@ -34,7 +34,6 @@ precmd () {
     LANG=en_US.UTF-8 vcs_info
     [[ -n "$vcs_info_msg_0_" ]] && psvar[1]="$vcs_info_msg_0_"
 }
-RPROMPT="%1(v|%F{white}%1v%f|)"
 
 git-stamp() {
   now=`date "+%Y%m%d%H%M%S"`
