@@ -20,7 +20,6 @@
   "workbench.list.openMode": "doubleClick",
   "workbench.activityBar.visible": false,
   "editor.folding": false,
-  "editor.renderIndentGuides": false,
 
   "vim.normalModeKeyBindingsNonRecursive": [
     {
@@ -78,7 +77,7 @@
   "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.enableDebugLogs": true,
-  "editor.guides.indentation": false,
+  "editor.guides.indentation": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "editor.unicodeHighlight.includeStrings": false,
