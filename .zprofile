@@ -42,6 +42,14 @@ git-stamp() {
   git push origin $now
 }
 
+# git-prompt
+source ${HOMEBREW_REPOSITORY}/etc/bash_completion.d/git-prompt.sh
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWUNTRACKEDFILES=true
+precmd () {
+  RPROMPT="$(__git_ps1 '%s')"
+}
+
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="$PATH:${HOMEBREW_REPOSITORY}/share/git-core/contrib/diff-highlight"
