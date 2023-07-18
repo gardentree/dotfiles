@@ -1,6 +1,3 @@
-# export
-export PATH=/usr/local/bin:$PATH
-
 # alias
 alias ls='ls -F'
 alias ll='ls -al'
@@ -49,10 +46,3 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 precmd () {
   RPROMPT="$(__git_ps1 '%s')"
 }
-
-# homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
-export PATH="$PATH:${HOMEBREW_REPOSITORY}/share/git-core/contrib/diff-highlight"
-
-# anyenv
-eval "$(anyenv init -)"
